@@ -1,0 +1,799 @@
+* {
+    margin: 0px;
+    font-family:Courier;
+    border: border-box;
+}
+
+.navbar {
+    height: 80px;
+    /* background-color:#233041; */
+    background-image: url(nav-background.png);
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+/* BOX 1 */
+
+.navbar-logo {
+    height: 80px;
+    width: 85px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.formandfocus-logo {
+    background-image: url(fandf-logo-noback.png);
+    background-size: cover;
+    height: 80px;
+    width: 85px;
+}
+
+/* BOX 2 */
+
+.nav-web-name {
+    height: 40px;
+    width: 250px;
+}
+
+.web-name {
+    height: 40px;
+    width: 250px;
+}
+
+/* BOX 3 */
+
+.nav-options {
+    height: 40px;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 440px;
+}
+
+#nav-ops {
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-size: 1.1rem;
+}
+
+/* BODY  */
+
+/* HERO-SECTION */
+
+.hero-section {
+    height: 500px;
+    width: 100%;
+}
+
+.hero-sec-img {
+    height: 100%;
+    width: 100%;
+    background-image: url(hero-sec-img.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section-text-content {
+    height: 110px;
+    width: 700px;
+    color: white;
+    margin-bottom: 200px;
+    border-radius: 60px;
+    background-color: rgba(0, 0, 0, 0.342);
+    text-align: center;
+}
+
+.hero-section-text-content-heading {
+    font-size: 30px;
+}
+
+.hero-section-text-content-subline {
+    font-size: 15px;
+}
+
+.categories-icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  
+    /* The "Pill" Shape */
+    border-radius: 50px;
+  
+    /* Glassmorphism Effect */
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    /* The Glowing Border */
+    border: 10px solid rgba(221, 224, 224, 0.5); /* Light blue tint */
+    box-shadow: 0 0 15px rgba(210, 241, 252, 0.3);
+
+    background:transparent;
+    border: none;
+    outline: none;
+    color: ghostwhite;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.hero-section-search-bar {
+    height: 50px;
+    width: 500px;
+    margin-top: 90px;
+    margin-left: 90px;
+    display: flex;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    border: ghostwhite;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+  
+    /* The "Pill" Shape */
+    border-radius: 50px;
+  
+    /* Glassmorphism Effect */
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    /* The Glowing Border */
+    border: 10px solid rgba(221, 224, 224, 0.5); /* Light blue tint */
+    box-shadow: 0 0 15px rgba(210, 241, 252, 0.3);
+  
+    width: 400px;
+
+    background:transparent;
+    border: none;
+    outline: none;
+    color: ghostwhite;
+    font-size: 18px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.search-input::placeholder {
+    color: ghostwhite;
+}
+
+.search-icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+  
+    /* The "Pill" Shape */
+    border-radius: 50px;
+  
+    /* Glassmorphism Effect */
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  
+    /* The Glowing Border */
+    border: 10px solid rgba(221, 224, 224, 0.5); /* Light blue tint */
+    box-shadow: 0 0 15px rgba(210, 241, 252, 0.3);
+
+    background:transparent;
+    border: none;
+    outline: none;
+    color: ghostwhite;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+/* BODY */
+
+body {
+    background-color: #444442;
+}
+
+/* HOME SECTION  */
+
+.home-section {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    
+}
+
+/* HOME EXPLORE SECTION */
+
+#explore-section-heading {
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.home-explore-section {
+    height: 100%;
+    width: 420px;
+    margin-left: 30px;
+    /* background-color: blue; */
+    padding-right: 35px;
+}
+
+.explore-section-images-row-1 {
+    width: 100%;
+    height: 150px;
+    /* background-color: coral; */
+    display: flex;
+}
+
+.exp-image-no-1 {
+    height: 145px;
+    width: 205px;
+    background-image:url(explore-image-no-1.png);
+    background-size: cover;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.exp-image-no-2 {
+    height: 145px;
+    width: 205px;
+    background-image:url(explore-image-no-2.png);
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.explore-section-images-row-2 {
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(87, 37, 19); */
+    display: flex;
+}
+
+.exp-image-no-3 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    height: 145px;
+    width: 205px;
+    background-size: cover;
+    margin-right: 10px;
+    border-radius: 10%;
+    color: white;
+}
+
+.exp-image-no-4 {
+    height: 145px;
+    width: 205px;
+    background-image:url(explore-image-no-4.png);
+    background-size: cover;
+    border-radius: 10%;
+}
+
+/* HOME CREATE SECTION */
+
+#create-section-heading {
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.home-create-section {
+    height: 100%;
+    width: 420px;
+    /* background-color: cyan; */
+    padding-right: 35px;
+}
+
+.create-section-button {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    padding-top: 75px;
+    /* background-color: palevioletred; */
+}
+
+#home-section-create-button {
+    width: 320px;
+    height: 70x;
+    font-size: 25px;
+    font-weight: 900;
+    color: #444442;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+
+.home-create-section-icons {
+    height: 70px;
+    width: 110px;
+    color: white;
+    /* background-color: burlywood; */
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.home-create-section-message {
+    height: 145px;
+    width: 100%;
+    color: white;
+    /* background-color: crimson; */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HOME CONNECT SECTION */
+
+#connect-section-heading {
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.home-connect-section {
+    height: 100%;
+    width: 420px;
+    /* background-color: green; */
+    padding-right: 40px;
+}
+
+.home-connect-section-images {
+    width: 100%;
+    height: 170px;
+    /* background-color: burlywood; */
+}
+
+.con-image-no-1 {
+    height: 100%;
+    width: 170px;
+    /* background-color: cyan; */
+    border-radius: 10%;
+    background-image: url(connect-image-no-1.png);
+    background-size: cover;
+}
+
+.con-image-no-2 {
+    height: 100%;
+    width: 170px;
+    /* background-color: brown; */
+    border-radius: 10%;
+    margin-left: 180px;
+    background-image: url(connect-image-no-2.png);
+    background-size: cover;
+}
+
+.con-image-no-2-icon {
+    width: 40px;
+    height: 170px;
+    margin-left: 155px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+
+.home-connect-section-message {
+    height: 120px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.home-connect-section-message h3 {
+    margin-top: -10px;
+}
+
+/* FEATURED PROJECTS SECTION */
+
+.featured-projects-section {
+    height: 1100px;
+    width: 100%;
+}
+
+.featured-projects-section-heading {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    /* background-color: pink; */
+    padding-left: 125px;
+    margin-bottom: 30px;
+}
+
+.featured-projects-section-heading h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.featured-projects-section-options {
+    width: 1185px;
+    height: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: maroon; */
+    margin-left: 25px;
+    padding: 0px 50px 15px 50px;
+}
+
+/* GRAPHIC DESIGN */
+
+.featured-project-graphic-design {
+    height: 330px;
+    width: 330px;
+    /* background-color: aqua; */
+    border-radius: 6%;
+    background-image: url(graphic-design.jpg);
+    background-size: cover;
+}
+
+.graphic-design-text {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(22, 27, 53, 0.822);
+    margin-top: 230px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.graphic-design-text h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.graphic-design-text h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c0bebe;
+}
+
+/* WEB BUILDING */
+
+.featured-project-web-building {
+    height: 330px;
+    width: 330px;
+    /* background-color: aqua; */
+    border-radius: 6%;
+    background-image: url(web-building.jpg);
+    background-size: cover;
+}
+
+.web-building-text {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(22, 27, 53, 0.822);
+    margin-top: 230px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.web-building-text h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.web-building-text h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c0bebe;
+}
+
+/* PHOTOGRAPHY */
+
+.featured-project-photography {
+    height: 330px;
+    width: 330px;
+    /* background-color: aqua; */
+    border-radius: 6%;
+    background-image: url(photography.jpg);
+    background-size: cover;
+}
+
+.photography-text {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(22, 27, 53, 0.822);
+    margin-top: 230px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.photography-text h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.photography-text h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c0bebe;
+}
+
+/* ILLUSTRATION */
+
+.featured-project-illustration {
+    height: 330px;
+    width: 330px;
+    /* background-color: aqua; */
+    border-radius: 6%;
+    background-image: url(illustration.jpg);
+    background-size: cover;
+}
+
+.illustration-text {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(22, 27, 53, 0.822);
+    margin-top: 230px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.illustration-text h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.illustration-text h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c0bebe;
+}
+
+/* MUSIC DESIGN */
+
+.featured-project-music-design {
+    height: 330px;
+    width: 330px;
+    /* background-color: aqua; */
+    border-radius: 6%;
+    background-image: url(music-design.jpg);
+    background-size: cover;
+}
+
+.music-design-text {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(22, 27, 53, 0.822);
+    margin-top: 230px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.music-design-text h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.music-design-text h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c0bebe;
+}
+
+/* TECHNOLOGY & INNOVATION */
+
+.featured-project-technology-and-innovation {
+    height: 330px;
+    width: 330px;
+    /* background-color: aqua; */
+    border-radius: 6%;
+    background-image: url(technology-and-innovation.jpg);
+    background-size: cover;
+}
+
+.technology-and-innovation-text {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(22, 27, 53, 0.822);
+    margin-top: 230px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.technology-and-innovation-text h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.technology-and-innovation-text h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c0bebe;
+}
+
+
+/* BRANDING */
+
+.featured-project-branding {
+    height: 330px;
+    width: 330px;
+    /* background-color: aqua; */
+    border-radius: 6%;
+    background-image: url(branding.jpg);
+    background-size: cover;
+}
+
+.branding-text {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(22, 27, 53, 0.822);
+    margin-top: 230px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.branding-text h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.branding-text h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c0bebe;
+}
+
+/* UI/UX DESIGN */
+
+.featured-project-UI-and-UX-design {
+    height: 330px;
+    width: 330px;
+    /* background-color: aqua; */
+    border-radius: 6%;
+    background-image: url(UIandUX-design.jpg);
+    background-size: cover;
+}
+
+.UI-and-UX-design-text {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(22, 27, 53, 0.822);
+    margin-top: 230px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.UI-and-UX-design-text h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.UI-and-UX-design-text h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c0bebe;
+}
+
+/* PRINT DESIGN */
+
+.featured-project-print-design {
+    height: 330px;
+    width: 330px;
+    /* background-color: aqua; */
+    border-radius: 6%;
+    background-image: url(print-design.jpg);
+    background-size: cover;
+}
+
+.print-design-text {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(22, 27, 53, 0.822);
+    margin-top: 230px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.print-design-text h2 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: white;
+}
+
+.print-design-text h4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #c0bebe;
+}
+
+/* FOOTER */
+
+.footer-options {
+    height: 50px;
+    width: 100%;
+    margin-top: 100px; 
+    background-color:rgb(22, 27, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-options a {
+    padding-left: 10px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.contact-logos {
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-end {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(footer-end.png);
+    background-size: cover;
+}
+
+.idrees-ghyratzy {
+    height: 70px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.idrees-ghyratzy a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    height: 30px;
+    width: 300px;
+    /* The "Pill" Shape */
+    border-radius: 40px;
+  
+    /* Glassmorphism Effect */
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    background:transparent;
+    border: none;
+    outline: none;
+    color: rgb(44, 44, 44);
+}
